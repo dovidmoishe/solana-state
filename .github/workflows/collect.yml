@@ -1,6 +1,13 @@
 name: Collect Solana State
 
 on:
+  # Run immediately whenever the collector or its configuration changes.
+  push:
+    branches:
+      - master
+    paths-ignore:
+      - "data/**"
+
   schedule:
     # Every 15 minutes.
     # GitHub Actions cron uses UTC.
