@@ -1,0 +1,71 @@
+name: Collect Solana State
+
+on:
+  schedule:
+    # Every 15 minutes.
+    # GitHub Actions cron uses UTC.
+    - cron: "*/15 * * * *"
+
+  # Lets us manually trigger a collection from GitHub.
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: solana-state-collector
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    name: Collect Solana Metrics
+
+    runs-on: ubuntu-latest
+
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Show Python version
+        run: python --version
+
+      - name: Generate Solana State
+        env:
+          PYTHONUTF8: "1"
+        run: python generate.py
+
+      - name: Show generated files
+        run: |
+          echo "Latest report:"
+          ls -lh data/latest.json
+
+          echo ""
+          echo "Historical snapshots:"
+          find data/history/raw -maxdepth 1 -type f | sort | tail -10
+
+      - name: Commit updated data
+        run: |
+          git config user.name "solana-state-bot"
+          git config user.email "solana-state-bot@users.noreply.github.com"
+
+          git add -A data
+
+          if git diff --cached --quiet; then
+            echo "No data changes to commit."
+            exit 0
+          fi
+
+          git commit -m "data: update Solana state"
+
+          git pull --rebase origin "${GITHUB_REF_NAME}"
+
+          git push origin "HEAD:${GITHUB_REF_NAME}"
