@@ -34,26 +34,19 @@ export function MetricDelta({ value, inverse = false }: { value: NullableNumber;
 }
 
 export function TrendSummary({ trend, format = (value) => formatNumber(value, 2) }: { trend?: TrendMetric; format?: (value: NullableNumber) => string }) {
-  const usingDemoData = !trend || trend.samples === 0;
-  const base = trend?.current ?? 100;
-  const values = usingDemoData ? {
-    previous: base * 0.94,
-    average: base * 0.97,
-    minimum: base * 0.89,
-    maximum: base * 1.04,
-    samples: 24,
-  } : trend;
+  if (!trend || trend.samples === 0) return <CollectingHistory compact />;
   return (
-    <>
-      {usingDemoData && <span className="demo-data-badge demo-data-badge--flow">Demo data</span>}
-      <dl className="trend-summary">
-        <div><dt>Previous</dt><dd>{format(values.previous)}</dd></div>
-        <div><dt>Recent avg.</dt><dd>{format(values.average)}</dd></div>
-        <div><dt>Range</dt><dd>{format(values.minimum)} – {format(values.maximum)}</dd></div>
-        <div><dt>Samples</dt><dd>{values.samples}</dd></div>
-      </dl>
-    </>
+    <dl className="trend-summary">
+      <div><dt>Previous</dt><dd>{format(trend.previous)}</dd></div>
+      <div><dt>Recent avg.</dt><dd>{format(trend.average)}</dd></div>
+      <div><dt>Range</dt><dd>{format(trend.minimum)} – {format(trend.maximum)}</dd></div>
+      <div><dt>Samples</dt><dd>{trend.samples}</dd></div>
+    </dl>
   );
+}
+
+export function CollectingHistory({ compact = false }: { compact?: boolean }) {
+  return <div className={`collecting${compact ? " collecting--compact" : ""}`}><Radar size={compact ? 14 : 20} /><div><strong>Collecting historical data</strong>{!compact && <span>Time-series insights appear after additional collector runs.</span>}</div></div>;
 }
 
 export function AnomalyItem({ anomaly }: { anomaly: Anomaly }) {
