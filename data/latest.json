@@ -1,42 +1,42 @@
 {
   "meta": {
-    "generated_at": "2026-09-02T19:58:47.855849+00:00",
+    "generated_at": "2026-09-02T22:30:19.817919+00:00",
     "network": "mainnet-beta",
     "version": "0.3.0",
-    "collection_duration_seconds": 9.26,
+    "collection_duration_seconds": 12.71,
     "history": {
       "window_hours": 48,
       "samples_available": 12,
-      "oldest_observation": "2026-08-31T22:02:39.405473+00:00",
-      "newest_observation": "2026-09-02T17:22:57.624205+00:00"
+      "oldest_observation": "2026-09-01T01:17:58.884776+00:00",
+      "newest_observation": "2026-09-02T19:58:47.855849+00:00"
     }
   },
   "network": {
-    "slot": 443782444,
-    "block_height": 421829788,
+    "slot": 443811325,
+    "block_height": 421858630,
     "epoch": {
       "epoch": 1027,
-      "slot_index": 118444,
+      "slot_index": 147326,
       "slots_in_epoch": 432000,
-      "slots_remaining": 313556,
-      "progress_percent": 27.42
+      "slots_remaining": 284674,
+      "progress_percent": 34.1
     },
     "performance": {
-      "tps": 4100.71,
-      "non_vote_tps": 1961.78,
-      "vote_tps": 2138.93,
-      "slots_per_second": 3.1767,
-      "slot_time_ms": 314.8,
+      "tps": 3629.0,
+      "non_vote_tps": 1511.03,
+      "vote_tps": 2117.97,
+      "slots_per_second": 3.1633,
+      "slot_time_ms": 316.12,
       "sample_period_seconds": 300,
-      "transactions_sampled": 1230212
+      "transactions_sampled": 1088701
     },
     "transactions": {
-      "total_since_genesis": 544549449158
+      "total_since_genesis": 544586385649
     },
     "supply": {
-      "total_sol": 633361462.47,
-      "circulating_sol": 585275370.73,
-      "non_circulating_sol": 48086091.74
+      "total_sol": 633361365.4,
+      "circulating_sol": 585275272.51,
+      "non_circulating_sol": 48086092.89
     },
     "rpc_health": "ok",
     "source": {
@@ -51,10 +51,10 @@
       "total": 6851
     },
     "stake": {
-      "active_sol": 438029873.43,
-      "delinquent_sol": 392483.22,
+      "active_sol": 438037081.92,
+      "delinquent_sol": 385274.73,
       "total_sol": 438422356.65,
-      "delinquent_percent": 0.0895
+      "delinquent_percent": 0.0879
     },
     "concentration": {
       "top_10_percent": 24.26,
@@ -62,7 +62,7 @@
       "top_50_percent": 55.27
     },
     "commissions": {
-      "average_percent": 12.37,
+      "average_percent": 12.36,
       "median_percent": 5.0,
       "minimum_percent": 0,
       "maximum_percent": 100
@@ -73,7 +73,7 @@
         "identity": "Fd7btgySsrjuo25CJCj7oE7VPMyezDhnx7pZkj2v69Nk",
         "activated_stake_sol": 17348904.21,
         "commission_percent": 7,
-        "last_vote": 443782467,
+        "last_vote": 443811348,
         "epoch_vote_account": true
       },
       {
@@ -81,7 +81,7 @@
         "identity": "HEL1USMZKAL2odpNBj2oCjffnFGaYwmbGmyewGv1e2TU",
         "activated_stake_sol": 16325736.95,
         "commission_percent": 0,
-        "last_vote": 443782467,
+        "last_vote": 443811348,
         "epoch_vote_account": true
       },
       {
@@ -89,7 +89,7 @@
         "identity": "DRpbCBMxVnDK7maPM5tGv6MvB3v1sRMC86PZ8okm21hy",
         "activated_stake_sol": 12462274.18,
         "commission_percent": 0,
-        "last_vote": 443782467,
+        "last_vote": 443811347,
         "epoch_vote_account": true
       },
       {
@@ -97,7 +97,7 @@
         "identity": "JUPiTERrZqgf1jUyR7dSkhMx4Kn2qJyekWsg3LT1h4b",
         "activated_stake_sol": 11304498.28,
         "commission_percent": 5,
-        "last_vote": 443782467,
+        "last_vote": 443811347,
         "epoch_vote_account": true
       },
       {
@@ -105,7 +105,7 @@
         "identity": "E1r4Psq84tHfQ6aPTvvDka4U3u8zPVD7gEUrH25RdxHL",
         "activated_stake_sol": 9565272.65,
         "commission_percent": 0,
-        "last_vote": 443782467,
+        "last_vote": 443811347,
         "epoch_vote_account": true
       },
       {
@@ -113,7 +113,7 @@
         "identity": "C8Bey3LKVJHVqN6xPTeW8WJfUgFQAeGNBpT4Rp99JP1k",
         "activated_stake_sol": 9285486.48,
         "commission_percent": 7,
-        "last_vote": 443782467,
+        "last_vote": 443811347,
         "epoch_vote_account": true
       },
       {
@@ -121,7 +121,7 @@
         "identity": "CAo1dCGYrB6NhHh5xb1cGjUiu86iyCfMTENxgHumSve4",
         "activated_stake_sol": 9040434.63,
         "commission_percent": 10,
-        "last_vote": 443782467,
+        "last_vote": 443811347,
         "epoch_vote_account": true
       },
       {
@@ -129,7 +129,7 @@
         "identity": "EvnRmnMrd69kFdbLMxWkTn1icZ7DCceRhvmb2SJXqDo4",
         "activated_stake_sol": 7220140.25,
         "commission_percent": 7,
-        "last_vote": 443782467,
+        "last_vote": 443811348,
         "epoch_vote_account": true
       },
       {
@@ -137,7 +137,7 @@
         "identity": "9eGrDohdNTAo61DRHyfMuqKWXqYnA3i254Wiszxe8FoY",
         "activated_stake_sol": 7125474.95,
         "commission_percent": 5,
-        "last_vote": 443782467,
+        "last_vote": 443811347,
         "epoch_vote_account": true
       },
       {
@@ -145,7 +145,7 @@
         "identity": "Awes4Tr6TX8JDzEhCZY2QVNimT6iD1zWHzf1vNyGvpLM",
         "activated_stake_sol": 6590652.71,
         "commission_percent": 0,
-        "last_vote": 443782467,
+        "last_vote": 443811347,
         "epoch_vote_account": true
       }
     ],
@@ -157,16 +157,16 @@
   },
   "economics": {
     "market": {
-      "price_usd": 99.2721,
+      "price_usd": 99.2803,
       "symbol": "SOL",
-      "price_timestamp": 1788378820,
+      "price_timestamp": 1788387950,
       "confidence": 0.99
     },
     "defi": {
-      "tvl_usd": 5660739963.05
+      "tvl_usd": 5686226969.07
     },
     "stablecoins": {
-      "market_cap_usd": 15784411431.1,
+      "market_cap_usd": 15785089675.7,
       "timestamp": "1788307200"
     },
     "dex": {
@@ -181,21 +181,21 @@
     },
     "fees": {
       "24h_usd": 12646787.67,
-      "previous_24h_usd": 13444470.88,
-      "7d_usd": 96497562.0,
-      "30d_usd": 332773464.37,
-      "change_1d_percent": -5.93,
-      "change_7d_percent": -4.56,
-      "change_1m_percent": 65.42
+      "previous_24h_usd": 13474958.88,
+      "7d_usd": 96642023.0,
+      "30d_usd": 333228532.98,
+      "change_1d_percent": -6.15,
+      "change_7d_percent": -4.62,
+      "change_1m_percent": 64.94
     },
     "revenue": {
       "24h_usd": 5793045.17,
-      "previous_24h_usd": 5519201.84,
-      "7d_usd": 41894097.18,
-      "30d_usd": 145261501.21,
-      "change_1d_percent": 4.96,
-      "change_7d_percent": -0.69,
-      "change_1m_percent": 81.55
+      "previous_24h_usd": 5526582.84,
+      "7d_usd": 41937892.18,
+      "30d_usd": 145357440.82,
+      "change_1d_percent": 4.82,
+      "change_7d_percent": -0.82,
+      "change_1m_percent": 81.49
     },
     "sources": {
       "price": {
@@ -229,51 +229,51 @@
   "trends": {
     "network": {
       "tps": {
-        "current": 4100.71,
-        "previous": 3933.32,
-        "change_percent": 4.26,
-        "average": 3870.525,
-        "vs_average_percent": 5.95,
+        "current": 3629.0,
+        "previous": 4100.71,
+        "change_percent": -11.5,
+        "average": 3864.6067,
+        "vs_average_percent": -6.1,
         "minimum": 3317.79,
         "maximum": 4441.43,
         "samples": 12
       },
       "non_vote_tps": {
-        "current": 1961.78,
-        "previous": 1819.34,
-        "change_percent": 7.83,
-        "average": 1740.65,
-        "vs_average_percent": 12.7,
+        "current": 1511.03,
+        "previous": 1961.78,
+        "change_percent": -22.98,
+        "average": 1734.0658,
+        "vs_average_percent": -12.86,
         "minimum": 1197.47,
         "maximum": 2327.8,
         "samples": 12
       },
       "vote_tps": {
-        "current": 2138.93,
-        "previous": 2113.97,
-        "change_percent": 1.18,
-        "average": 2129.8758,
-        "vs_average_percent": 0.43,
+        "current": 2117.97,
+        "previous": 2138.93,
+        "change_percent": -0.98,
+        "average": 2130.5417,
+        "vs_average_percent": -0.59,
         "minimum": 2113.63,
         "maximum": 2161.14,
         "samples": 12
       },
       "slots_per_second": {
-        "current": 3.1767,
-        "previous": 3.1433,
-        "change_percent": 1.06,
-        "average": 3.1533,
-        "vs_average_percent": 0.74,
+        "current": 3.1633,
+        "previous": 3.1767,
+        "change_percent": -0.42,
+        "average": 3.1561,
+        "vs_average_percent": 0.23,
         "minimum": 3.1267,
         "maximum": 3.2,
         "samples": 12
       },
       "slot_time_ms": {
-        "current": 314.8,
-        "previous": 318.13,
-        "change_percent": -1.05,
-        "average": 317.14,
-        "vs_average_percent": -0.74,
+        "current": 316.12,
+        "previous": 314.8,
+        "change_percent": 0.42,
+        "average": 316.8625,
+        "vs_average_percent": -0.23,
         "minimum": 312.5,
         "maximum": 319.83,
         "samples": 12
@@ -285,8 +285,8 @@
           "current": 676,
           "previous": 676.0,
           "change_percent": 0.0,
-          "average": 678.5833,
-          "vs_average_percent": -0.38,
+          "average": 678.1667,
+          "vs_average_percent": -0.32,
           "minimum": 676.0,
           "maximum": 682.0,
           "samples": 12
@@ -295,7 +295,7 @@
           "current": 6175,
           "previous": 6175.0,
           "change_percent": 0.0,
-          "average": 6172.4167,
+          "average": 6172.8333,
           "vs_average_percent": 0.04,
           "minimum": 6169.0,
           "maximum": 6175.0,
@@ -314,11 +314,11 @@
       },
       "stake": {
         "delinquent_stake_percent": {
-          "current": 0.0895,
+          "current": 0.0879,
           "previous": 0.0895,
-          "change_percent": 0.0,
-          "average": 0.0348,
-          "vs_average_percent": 157.18,
+          "change_percent": -1.79,
+          "average": 0.0419,
+          "vs_average_percent": 109.79,
           "minimum": 0.0049,
           "maximum": 0.0895,
           "samples": 12
@@ -329,8 +329,8 @@
           "current": 24.26,
           "previous": 24.26,
           "change_percent": 0.0,
-          "average": 24.1883,
-          "vs_average_percent": 0.3,
+          "average": 24.1958,
+          "vs_average_percent": 0.27,
           "minimum": 24.17,
           "maximum": 24.26,
           "samples": 12
@@ -339,8 +339,8 @@
           "current": 39.97,
           "previous": 39.97,
           "change_percent": 0.0,
-          "average": 39.8742,
-          "vs_average_percent": 0.24,
+          "average": 39.8842,
+          "vs_average_percent": 0.22,
           "minimum": 39.85,
           "maximum": 39.97,
           "samples": 12
@@ -349,8 +349,8 @@
           "current": 55.27,
           "previous": 55.27,
           "change_percent": 0.0,
-          "average": 55.1692,
-          "vs_average_percent": 0.18,
+          "average": 55.18,
+          "vs_average_percent": 0.16,
           "minimum": 55.14,
           "maximum": 55.27,
           "samples": 12
@@ -359,31 +359,31 @@
     },
     "economics": {
       "sol_price_usd": {
-        "current": 99.2721,
-        "previous": 98.3146,
-        "change_percent": 0.97,
-        "average": 100.7521,
-        "vs_average_percent": -1.47,
+        "current": 99.2803,
+        "previous": 99.2721,
+        "change_percent": 0.01,
+        "average": 100.3876,
+        "vs_average_percent": -1.1,
         "minimum": 98.2185,
         "maximum": 103.9304,
         "samples": 12
       },
       "tvl_usd": {
-        "current": 5660739963.05,
-        "previous": 5670108331.42,
-        "change_percent": -0.17,
-        "average": 5759005923.8492,
-        "vs_average_percent": -1.71,
+        "current": 5686226969.07,
+        "previous": 5660739963.05,
+        "change_percent": 0.45,
+        "average": 5742897121.115,
+        "vs_average_percent": -0.99,
         "minimum": 5618933649.8,
         "maximum": 5962552945.46,
         "samples": 12
       },
       "stablecoin_market_cap_usd": {
-        "current": 15784411431.1,
-        "previous": 15783739430.38,
+        "current": 15785089675.7,
+        "previous": 15784411431.1,
         "change_percent": 0.0,
-        "average": 15918793162.4525,
-        "vs_average_percent": -0.84,
+        "average": 15895864316.4258,
+        "vs_average_percent": -0.7,
         "minimum": 15783600429.55,
         "maximum": 16067089165.15,
         "samples": 12
@@ -392,9 +392,9 @@
         "current": 2171560050.49,
         "previous": 2171560050.49,
         "change_percent": 0.0,
-        "average": 2349304725.0042,
-        "vs_average_percent": -7.57,
-        "minimum": 1929632644.74,
+        "average": 2369465342.15,
+        "vs_average_percent": -8.35,
+        "minimum": 2171560050.49,
         "maximum": 2501465620.05,
         "samples": 12
       },
@@ -402,30 +402,30 @@
         "current": 16915762138.35,
         "previous": 16915762138.35,
         "change_percent": 0.0,
-        "average": 17393874204.1158,
-        "vs_average_percent": -2.75,
+        "average": 17289032328.175,
+        "vs_average_percent": -2.16,
         "minimum": 16736468642.35,
-        "maximum": 18173864649.64,
+        "maximum": 17679188527.05,
         "samples": 12
       },
       "app_fees_24h_usd": {
         "current": 12646787.67,
-        "previous": 12641815.67,
-        "change_percent": 0.04,
-        "average": 12932460.405,
-        "vs_average_percent": -2.21,
+        "previous": 12646787.67,
+        "change_percent": 0.0,
+        "average": 12960748.6742,
+        "vs_average_percent": -2.42,
         "minimum": 12266833.67,
         "maximum": 13501483.08,
         "samples": 12
       },
       "app_revenue_24h_usd": {
         "current": 5793045.17,
-        "previous": 5788783.17,
-        "change_percent": 0.07,
-        "average": 5573242.7658,
-        "vs_average_percent": 3.94,
+        "previous": 5793045.17,
+        "change_percent": 0.0,
+        "average": 5601242.5567,
+        "vs_average_percent": 3.42,
         "minimum": 5449114.04,
-        "maximum": 5788783.17,
+        "maximum": 5793045.17,
         "samples": 12
       }
     }
@@ -435,21 +435,11 @@
       "metric": "delinquent_stake_percent",
       "label": "Delinquent stake",
       "severity": "critical",
-      "current": 0.0895,
-      "baseline_average": 0.0348,
-      "change_from_baseline_percent": 156.81,
-      "z_score": 1.96,
-      "message": "Delinquent stake is 156.81% above its recent baseline."
-    },
-    {
-      "metric": "app_revenue_24h_usd",
-      "label": "App revenue",
-      "severity": "notice",
-      "current": 5793045.17,
-      "baseline_average": 5573242.7658,
-      "change_from_baseline_percent": 3.94,
-      "z_score": 2.11,
-      "message": "App revenue is 3.94% above its recent baseline."
+      "current": 0.0879,
+      "baseline_average": 0.0419,
+      "change_from_baseline_percent": 109.99,
+      "z_score": 1.53,
+      "message": "Delinquent stake is 109.99% above its recent baseline."
     }
   ],
   "health": {}
