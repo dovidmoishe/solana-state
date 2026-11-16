@@ -1,0 +1,38 @@
+{
+  "timestamp": "2026-11-16T11:25:49.557908+00:00",
+  "network": {
+    "slot": 470114027,
+    "block_height": 448128922,
+    "epoch": 1088,
+    "epoch_progress_percent": 22.69,
+    "tps": 1104.0,
+    "non_vote_tps": 1104.0,
+    "vote_tps": 0.0,
+    "slots_per_second": 4.5767,
+    "slot_time_ms": 218.5,
+    "total_supply_sol": 637676989.35,
+    "circulating_supply_sol": 591684503.4
+  },
+  "validators": {
+    "active": 662,
+    "delinquent": 6162,
+    "total": 6824,
+    "active_stake_sol": 428992845.45,
+    "delinquent_stake_sol": 152188.83,
+    "delinquent_stake_percent": 0.0355,
+    "top_10_stake_percent": 24.77,
+    "top_25_stake_percent": 40.52,
+    "top_50_stake_percent": 56.26,
+    "average_commission_percent": 12.59,
+    "median_commission_percent": 5.0
+  },
+  "economics": {
+    "sol_price_usd": 71.5192,
+    "tvl_usd": 4688101723.35,
+    "stablecoin_market_cap_usd": 14255225487.68,
+    "dex_volume_24h_usd": 1508231348.09,
+    "dex_volume_7d_usd": 9965601857.6,
+    "app_fees_24h_usd": 7101607.53,
+    "app_revenue_24h_usd": 2461108.87
+  }
+}
